@@ -1,8 +1,8 @@
 html {
   box-sizing: border-box;
   font-family: "Crimson Text", serif;
+  font-weight: lighter;
   color: #222;
-  font-weight: normal;
   line-height: 1.3;
 }
 
@@ -27,6 +27,7 @@ article p {
 }
 
 article header {
+  margin-top: 0;
 }
 
 article h1 {
@@ -38,9 +39,7 @@ article h1 {
 article header p {
   font-style: italic;
   padding-bottom: 1.3rem;
-  border-bottom-style: solid;
-  border-width: thin;
-  border-color: #555;
+  border-bottom: 1px solid #555;
 }
 
 .quote {
@@ -62,7 +61,5 @@ article ol {
 
 article p:nth-of-type(5) {
   padding-bottom: 1.3rem;
-  border-bottom-style: solid;
-  border-width: thin;
-  border-color: #999;
+  border-bottom: 1px solid #555;
 }
