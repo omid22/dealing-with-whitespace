@@ -11,13 +11,16 @@ html {
 }
 
 body {
-  margin: 5px;
+  margin: 0 0 1px;
   padding-left: 1rem;
   padding-right: 1rem;
+  padding-bottom: 0;
+  border-bottom: 2px solid #999;
 }
 
 article header {
   padding-top: 0;
+  padding-bottom: 7px;
 }
 
 article h1 {
@@ -32,22 +35,28 @@ article header p {
   font-style: italic;
   margin-top: 0;
   margin-bottom: 1px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #999;
 }
 
 article {
-padding-top: 0;
+  padding-top: 0;
+}
+
+article p {
+
 }
 
 blockquote {
-  color: #999;
-  font-size: 1.5rem;
+  color: #555;
+  font-size: 1.125rem;
 }
 
 .quote {
-  color: #999;
+  color: #555;
   font-size: 1em;
 }
 
 article ol {
-  margin-left: 0;
+  margin-left: 10px;
 }
